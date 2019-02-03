@@ -25,3 +25,12 @@ C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\bin\D
 C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\obj\Debug\Site.Transforms.csprojResolveAssemblyReference.cache
 C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\obj\Debug\Site.Transforms.dll
 C:\Users\Rebato\Desktop\PocSistemaControleLogistica-master\Site.Transforms\obj\Debug\Site.Transforms.pdb
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\bin\Debug\Site.Transforms.dll.config
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\bin\Debug\Site.Transforms.dll
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\bin\Debug\Site.Transforms.pdb
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\bin\Debug\CloudrailSI.dll
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.dll
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.pdb

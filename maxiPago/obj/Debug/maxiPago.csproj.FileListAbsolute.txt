@@ -1,0 +1,5 @@
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\maxiPago\bin\Debug\maxiPago.dll
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\maxiPago\bin\Debug\maxiPago.pdb
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\maxiPago\obj\Debug\maxiPago.csprojResolveAssemblyReference.cache
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\maxiPago\obj\Debug\maxiPago.dll
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\maxiPago\obj\Debug\maxiPago.pdb
