@@ -24,7 +24,6 @@ namespace SimpleInjectorConsole
 
             var handler = container.GetInstance<FreteServico>();
             var fretesInj = handler.GetAll();
-
         }
 
         static void Start()
