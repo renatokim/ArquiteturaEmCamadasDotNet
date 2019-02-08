@@ -23,8 +23,8 @@ namespace SimpleInjectorConsole
         {
             Start();
 
-            var handler = container.GetInstance<FreteServico>();
-            var fretesInj = handler.GetAll();
+            var _freteServico = container.GetInstance<FreteServico>();
+            var fretesInj = _freteServico.GetAll();
         }
 
         static void Start()
