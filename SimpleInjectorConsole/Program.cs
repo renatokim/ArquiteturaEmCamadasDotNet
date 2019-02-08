@@ -40,7 +40,6 @@ namespace SimpleInjectorConsole
             container.Register<IFreteRepositorio, FreteRepositorio>(Lifestyle.Singleton);
             container.Register<ITransporteRepositorio, TransporteRepositorio>(Lifestyle.Singleton);
             container.Register<IRotaRepositorio, RotaRepositorio>(Lifestyle.Singleton);
-            container.Register<IFreteRepositorio, FreteRepositorio>(Lifestyle.Singleton);
             
             container.Verify();
         }
