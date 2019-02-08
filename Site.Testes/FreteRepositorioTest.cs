@@ -19,10 +19,6 @@ namespace Site.Testes
         public void ListarFretesRepositorio()
         {
             var fretes = _freteRepositorio.GetAll();
-
-
-
-
         }
     }
 }
