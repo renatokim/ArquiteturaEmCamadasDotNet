@@ -107,7 +107,6 @@ C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\Site.Te
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\Site.Testes.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\Site.Testes.pdb
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\CloudrailSI.dll
-C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\maxiPago.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\MySql.Data.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\Site.ActiveRecords.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\Site.DTO.dll
@@ -131,7 +130,6 @@ C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\System.
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\System.Web.WebPages.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\System.Web.Cors.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\maxiPago.pdb
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\Site.ActiveRecords.pdb
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\Site.DTO.pdb
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Testes\bin\Debug\Site.Entidade.pdb
