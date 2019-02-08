@@ -1,8 +1,10 @@
 ﻿using SimpleInjector;
 using Site.IRepositorio;
+using Site.IRepositorio.Chamados;
 using Site.IServico;
 using Site.IServico.Chamados;
 using Site.Repositorio;
+using Site.Repositorio.Chamados;
 using Site.Servico;
 using Site.Servico.Chamados;
 using System;
@@ -21,9 +23,6 @@ namespace SimpleInjectorConsole
         {
             Start();
 
-            //IFreteServico _freteServico = ServiceFactory.CreateInstance<IFreteServico>();
-            //var fretes = _freteServico.GetAll();
-
             var handler = container.GetInstance<FreteServico>();
             var fretesInj = handler.GetAll();
         }
@@ -40,7 +39,11 @@ namespace SimpleInjectorConsole
             container.Register<IFreteRepositorio, FreteRepositorio>(Lifestyle.Singleton);
             container.Register<ITransporteRepositorio, TransporteRepositorio>(Lifestyle.Singleton);
             container.Register<IRotaRepositorio, RotaRepositorio>(Lifestyle.Singleton);
+            container.Register<IChamadoRepositorio, ChamadoRepositorio>(Lifestyle.Singleton);
+            container.Register<IHistoricoRepositorio, HistoricoRepositorio>(Lifestyle.Singleton);
+
             
+
             container.Verify();
         }
     }

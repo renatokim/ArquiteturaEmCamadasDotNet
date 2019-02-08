@@ -13,7 +13,12 @@ namespace Site.Servico.Chamados
 {
     public class HistoricoServico : IHistoricoServico
     {
-        private readonly IHistoricoRepositorio _historicoRepositorio = RepositoryFactory.CreateInstance<IHistoricoRepositorio>();
+        IHistoricoRepositorio _historicoRepositorio;
+
+        public HistoricoServico(IHistoricoRepositorio historicoRepositorio)
+        {
+            _historicoRepositorio = historicoRepositorio;
+        }
 
         public DTOHistorico GetById(int id)
         {
