@@ -26,6 +26,5 @@ C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\ArquiteturaDotNet\Site.Active
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\bin\Debug\Site.ActiveRecords.pdb
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\bin\Debug\CloudrailSI.dll
-C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.csprojResolveAssemblyReference.cache
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.pdb

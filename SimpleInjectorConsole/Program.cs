@@ -41,8 +41,7 @@ namespace SimpleInjectorConsole
             container.Register<IRotaRepositorio, RotaRepositorio>(Lifestyle.Singleton);
             container.Register<IChamadoRepositorio, ChamadoRepositorio>(Lifestyle.Singleton);
             container.Register<IHistoricoRepositorio, HistoricoRepositorio>(Lifestyle.Singleton);
-
-            
+            container.Register<IRepositorioGenerico, RepositorioGenerico>(Lifestyle.Singleton);
 
             container.Verify();
         }

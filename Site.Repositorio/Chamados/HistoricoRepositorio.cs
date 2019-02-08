@@ -13,7 +13,12 @@ namespace Site.Repositorio.Chamados
 {
     public class HistoricoRepositorio : IHistoricoRepositorio
     {
-        readonly IRepositorioGenerico _repositorioGenerico = new RepositorioGenerico();
+        IRepositorioGenerico _repositorioGenerico;
+
+        public HistoricoRepositorio(IRepositorioGenerico repositorioGenerico)
+        {
+            _repositorioGenerico = repositorioGenerico;
+        }
 
         public DTOHistorico GetById(int id)
         {

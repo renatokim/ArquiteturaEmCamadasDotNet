@@ -40,6 +40,5 @@ C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\bin\Debug\Sit
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\bin\Debug\CloudrailSI.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.csprojResolveAssemblyReference.cache
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.pdb

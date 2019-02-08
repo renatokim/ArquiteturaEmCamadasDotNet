@@ -13,7 +13,7 @@ namespace Site.Testes
     [TestClass]
     public class FreteRepositorioTest
     {
-        private readonly IFreteRepositorio _freteRepositorio = RepositoryFactory.CreateInstance<IFreteRepositorio>();
+        private readonly IFreteRepositorio _freteRepositorio = new FreteRepositorio();
 
         [TestMethod]
         public void ListarFretesRepositorio()
