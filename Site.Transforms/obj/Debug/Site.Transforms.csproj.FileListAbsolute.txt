@@ -42,3 +42,4 @@ C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\bin\Debug\New
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.pdb
+C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.Transforms\obj\Debug\Site.Transforms.csprojResolveAssemblyReference.cache
