@@ -28,4 +28,3 @@ C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\bin\Debug\
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\bin\Debug\CloudrailSI.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.dll
 C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.pdb
-C:\Users\Renato\Documents\GitHub\ArquiteturaDotNet\Site.ActiveRecords\obj\Debug\Site.ActiveRecords.csprojResolveAssemblyReference.cache
