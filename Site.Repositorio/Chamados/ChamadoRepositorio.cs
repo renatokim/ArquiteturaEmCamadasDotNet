@@ -14,7 +14,12 @@ namespace Site.Repositorio.Chamados
 {
     public class ChamadoRepositorio : IChamadoRepositorio
     {
-        readonly IRepositorioGenerico _repositorioGenerico = new RepositorioGenerico();
+        IRepositorioGenerico _repositorioGenerico;
+
+        public ChamadoRepositorio(IRepositorioGenerico repositorioGenerico)
+        {
+            _repositorioGenerico = repositorioGenerico;
+        }
 
         public DTOChamado GetById(int id)
         {

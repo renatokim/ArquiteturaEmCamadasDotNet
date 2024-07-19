@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Site.IServico;
+using Site.Repositorio;
 using Site.Servico;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Site.Testes
     [TestClass]
     public class FreteServicoTest
     {
-        private readonly IFreteServico _freteServico = ServiceFactory.CreateInstance<IFreteServico>();
+        private readonly IFreteServico _freteServico = new FreteServico(new FreteRepositorio());
 
         [TestMethod]
         public void ListarFretesServico()

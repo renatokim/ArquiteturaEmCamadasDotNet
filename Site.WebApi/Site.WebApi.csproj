@@ -224,9 +224,17 @@
       <Project>{974a35c9-19a4-4f5c-89ea-224b7d614b3c}</Project>
       <Name>Site.Enums</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Site.IRepositorio\Site.IRepositorio.csproj">
+      <Project>{fa5e0d96-ae22-4723-99a3-277c385dbbee}</Project>
+      <Name>Site.IRepositorio</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Site.IServico\Site.IServico.csproj">
       <Project>{df76f0eb-8829-4cf6-9bf4-303926cf91bf}</Project>
       <Name>Site.IServico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Site.Repositorio\Site.Repositorio.csproj">
+      <Project>{295db307-985f-4a3f-b6d9-a313b185ed9a}</Project>
+      <Name>Site.Repositorio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Site.Servico\Site.Servico.csproj">
       <Project>{51fdff8b-dab6-417c-918a-27f7b83bc1b7}</Project>

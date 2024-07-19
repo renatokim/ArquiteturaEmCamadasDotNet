@@ -1,5 +1,6 @@
 ﻿using Site.DTO;
 using Site.IServico;
+using Site.Repositorio;
 using Site.Servico;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace Site.WebApi.Controllers
     [RoutePrefix("api/v1"), EnableCors(origins: "*", headers: "*", methods: "*")]
     public class RotaController : ApiController
     {
-        private readonly IRotaServico _rotaServico = ServiceFactory.CreateInstance<IRotaServico>();
+        private readonly IRotaServico _rotaServico = new RotaServico(new RotaRepositorio());
 
         [HttpGet]
         [Route("rotas_grid")]

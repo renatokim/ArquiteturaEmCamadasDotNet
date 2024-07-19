@@ -12,7 +12,12 @@ namespace Site.Servico
 {
     public class FreteServico : IFreteServico
     {
-        private readonly IFreteRepositorio _freteRepositorio = RepositoryFactory.CreateInstance<IFreteRepositorio>();
+        IFreteRepositorio _freteRepositorio;
+
+        public FreteServico(IFreteRepositorio freteRepositorio)
+        {
+            _freteRepositorio = freteRepositorio;
+        }
 
         public IList<DTOFrete> GetAll()
         {

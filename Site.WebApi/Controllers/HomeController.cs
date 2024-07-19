@@ -9,13 +9,15 @@ using Site.Entidade.Chamados;
 using Site.IServico.Chamados;
 using Site.Servico.Chamados;
 using System.Web.Http.Cors;
+using Site.Repositorio.Chamados;
+using Site.Repositorio;
 
 namespace Site.WebApi.Controllers
 {
     [RoutePrefix("api/v1"), EnableCors(origins: "*", headers: "*", methods: "*")]
     public class HomeController : ApiController
     {
-        readonly IChamadoServico _chamadoServico = new ChamadoServico();
+        readonly IChamadoServico _chamadoServico = new ChamadoServico(new ChamadoRepositorio(new RepositorioGenerico()), new HistoricoServico(new HistoricoRepositorio(new RepositorioGenerico())));
 
         [HttpPost]
         [Route("chamado")]

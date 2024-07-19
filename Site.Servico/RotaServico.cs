@@ -12,7 +12,12 @@ namespace Site.Servico
 {
     public class RotaServico : IRotaServico
     {
-        private readonly IRotaRepositorio _rotaRepositorio = RepositoryFactory.CreateInstance<IRotaRepositorio>();
+        IRotaRepositorio _rotaRepositorio;
+
+        public RotaServico(IRotaRepositorio rotaRepositorio)
+        {
+            _rotaRepositorio = rotaRepositorio;
+        }
 
         public IList<DTORota> GetAll()
         {

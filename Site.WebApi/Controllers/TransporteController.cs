@@ -1,5 +1,6 @@
 ﻿using Site.DTO;
 using Site.IServico;
+using Site.Repositorio;
 using Site.Servico;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace Site.WebApi.Controllers
     [RoutePrefix("api/v1"), EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TransporteController : ApiController
     {
-        private readonly ITransporteServico _transporteServico = ServiceFactory.CreateInstance<ITransporteServico>();
+        private readonly ITransporteServico _transporteServico = new TransporteServico(new TransporteRepositorio());
 
         [HttpGet]
         [Route("transporte_clientes")]

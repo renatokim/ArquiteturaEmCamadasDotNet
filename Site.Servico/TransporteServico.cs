@@ -12,7 +12,12 @@ namespace Site.Servico
 {
     public class TransporteServico : ITransporteServico
     {
-        private readonly ITransporteRepositorio _transporteRepositorio = RepositoryFactory.CreateInstance<ITransporteRepositorio>();
+        ITransporteRepositorio _transporteRepositorio;
+
+        public TransporteServico(ITransporteRepositorio transporteRepositorio)
+        {
+            _transporteRepositorio = transporteRepositorio;
+        }
 
         public IList<DTOTransporte> GetAll()
         {

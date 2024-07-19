@@ -13,8 +13,15 @@ namespace Site.Servico.Chamados
 {
     public class ChamadoServico : IChamadoServico
     {
-        private readonly IChamadoRepositorio _chamadoRepositorio = RepositoryFactory.CreateInstance<IChamadoRepositorio>();
-        private readonly IHistoricoServico _historicoServico = ServiceFactory.CreateInstance<IHistoricoServico>();
+        IChamadoRepositorio _chamadoRepositorio;
+        IHistoricoServico _historicoServico;
+
+        public ChamadoServico(IChamadoRepositorio chamadoRepositorio, IHistoricoServico historicoServico)
+        {
+            _chamadoRepositorio = chamadoRepositorio;
+            _historicoServico = historicoServico;
+
+        }
 
         public DTOChamado GetById(int id)
         {
